@@ -1,0 +1,20 @@
+user:
+  fb:
+    cookie: title="Accept All" # title
+    username: name="email" # name
+    pwd: name="pass" # name
+    login: name="login" # name
+  breathehr:
+    username: name="email" # name
+    pwd: name="password" # name
+    login: text()='Log in'
+    request_leave: text()='request leave'
+    leave_radio: value="OtherLeave" #value='Holiday'
+    sel_reason: id="leave_request_company_leave_reason_id" # id
+    reason: Working from home
+    start_date: id="#leave_request_start_date_react" # id
+    start_date_in: None #UK_date
+    end_date: id="#leave_request_end_date_react" # id
+    end_date_in: None #UK_date
+    note: id="leave_request_notes" # id
+    note_text: Working from home as per government of Ireland and ABB guidelines due to COVID 19

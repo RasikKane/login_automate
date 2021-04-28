@@ -1,0 +1,4 @@
+site: "fb"
+#site: "breathehr"
+permission: "user"
+browser: "Chrome"
